@@ -1,1 +1,6 @@
+utils_baseline.py是baseline模型的数据处理代码
+utils.py是所提新模型的数据处理代码
+confignew.py是对新模型内部模块参数进行修改的文件，可以通过修改该文件的对应参数验证不同参数对模型性能的影响
+five_fold_baselines.py是执行对比模型训练和测试的代码。使用python five_fold_baselines.py即可运行。（前提需要将其中的相关文件路径修改成自己的）
+five_fold_new.py是执行对比模型训练和测试的代码。使用python five_fold_new.py即可运行。（前提需要将其中的相关文件路径修改成自己的）
 
